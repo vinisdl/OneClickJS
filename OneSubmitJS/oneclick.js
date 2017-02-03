@@ -39,11 +39,9 @@
         $("body").append("<div id=\"spinner\" class=\"pai\"> <div class=\"spinner\"></div> <div class=\"backgroud\"> </div></div>")
         $("#spinner").hide();
         }, showLoad =function(){
-            $("html, body").addClass("htmlbody");
             $("#spinner").show();
         },
         hideLoad = function(){
-            $("html, body").removeClass("htmlbody");
             $("#spinner").hide();
         };
 })( jQuery );
